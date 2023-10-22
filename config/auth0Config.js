@@ -3,8 +3,8 @@ require('dotenv').config()
 
 
 const jwtCheck = auth({
-  audience: process.env.audience,
-  issuerBaseURL: process.env.issuerURL,
+  audience: "https://real-estate-booking-tm.onrender.com",
+  issuerBaseURL: "https://dev-elberx4si3yrfbfm.us.auth0.com/",
   tokenSigningAlg: "RS256",
 })
 
